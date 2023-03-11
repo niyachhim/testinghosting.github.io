@@ -1,253 +1,220 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>eLEARNING - eLearning HTML Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistic</title>
 
-    <!-- Favicon -->
-    <link href="" rel="icon">
+    <link rel="stylesheet" href="../dist/css/style.css">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Bootstrap Link -->
+    <link href="../plugins/bootstrap-5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Link -->
+
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="../plugins/fontawesome-6.3.0/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+
+    <!-- Google Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
-
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="../plugins/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="../plugins/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
-    <link href="../dist/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> -->
+    <!-- Google Fonts -->
 </head>
-
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-    <!-- Spinner End -->
-
-
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>LOGICSTIC</h2>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="../index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a href="" class="dropdown-item">Services1</a>
-                        <a href="" class="dropdown-item">Services2</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#" style="margin:-20px 0px -20px 0px;">
+            <img src="../dist/img/logo/ASR.png" alt="ASR" height="" width="140">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <div class="fw-bold">
+              <span class="ws-nowrap me-2"><i class="fa fa-envelope fs-4 text-warning"></i>&nbsp; <a class="fs-6 underline" href="mailto:info@cambodianexpress.com">info@cambodianexpress.com</a></span>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+          </div>
         </div>
-    </nav>
+      </nav>
     <!-- Navbar End -->
 
-
-    <!-- Header Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 page-header">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">About Us</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">About</li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
+    <!-- =====================Slide show======================================== -->
+    <div id="carouselExampleDark" class="carousel carousel-white slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="../dist/img/slide/1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-white" >
+            <p style="font-size: 40px;font-weight: 900;margin-bottom:-10px;">Resolve & A Determination</p>
+            <p style="font-size: 60px;font-weight: 900;">The Art Of Freight</p>
+          </div>
         </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="../dist/img/slide/4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-white" >
+            <p style="font-size: 40px;font-weight: 900;margin-bottom:-10px;">Worldwide Freight & Logistics</p>
+            <p style="font-size: 60px;font-weight: 900;">One Of The Fastest Services</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../dist/img/slide/3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block text-white" >
+            <p style="font-size: 40px;font-weight: 900;margin-bottom:-10px;">Freight Forwarding Solutions Provider</p>
+            <p style="font-size: 60px;font-weight: 900;">Worldwide Freight & Logistics</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <!-- Header End -->
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
-                <h1 class="mb-5">Courses Categories</h1>
+  <!-- =====================Slide show======================================== -->
+
+
+<!-- About Start -->
+<section class="about" id="about">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 py-3 py-md-0">
+                <ol class="list">
+                    <li class="item">
+                      <h2 class="headline">Customer Service</h2><span>24/7 accessibility.</span>
+                    </li>
+                    <!-- <li class="item">
+                      <h2 class="headline">Smart Technology</h2><span>to maintain a clear view of important details.</span>
+                    </li> -->
+                    <li class="item">
+                      <h2 class="headline">Competitive Pricing</h2><span>tailored solutions to fit your needs.</span>
+                    </li>
+                    <li class="item">
+                        <h2 class="headline">Reliability</h2><span>from an experienced staff that is fully engaged.</span>
+                    </li>
+                    <li class="item">
+                        <h2 class="headline">We Can Help</h2><span>Call us now at</span><br><span class="text-warning fs-3">+855-69484342</span>
+                    </li>
+                </ol>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-                            <h5 class="mb-3">Transportation</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
-                            <h5 class="mb-3">Live Monitoring</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
-                            <h5 class="mb-3">Worldwide Service</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
-                            <h5 class="mb-3">Landing Sport</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                        </div>
-                    </div>
-                </div>
+
+            <div class="col-md-6 py-3 py-md-0 text-dark p-5 rounded" style="background-color: rgba(139, 154, 167, 0.068);">
+                <h2 class="pt-4">About Us</h2>
+                <p class="pb-5">
+                    Worldwide Freight & Logistics (Pvt) Ltd., is a privately owned Freight Forwarding company in Pakistan, looking after the interests of United American Line (registered in USA) by representing them, as their agent in Pakistan.  The company was founded by a group of professionals in the freight industry with a diverse mix of multi-modal expertise, International Relations & an extensive experience of the Local Market requirements.
+                    Our team would like to see themselves, as a partner to their clients in resolving their issues with the great technical capabilities at their disposal. The company would also like to see that high service standards are maintained and exceeded.
+                    International freight forwarding norms in the fields of conventional imports and exports as well as supply chain, with the new concept of 3PL /4PL and Contract Logistics, are always kept in mind, while handling the shipments.
+                </p>
+                
             </div>
+
         </div>
+
     </div>
-    <!-- Service End -->
+</section>
+<!-- About End -->
 
 
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="../images/ps_480_2.jpg" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Welcome to Logicstic</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International Certificate</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International Certificate</p>
-                        </div>
-                    </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
+    
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Privacy Policy</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">FAQs & Help</a>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Location, City, Country</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="https://freewebsitecode.com"></a>All Right Reserved.
+<!--footer starts from here-->
+<footer class="footer">
+  <div class="container bottom_border">
+  <div class="row">
+  <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+  <h5 class="headin5_amrc col_white_amrc pt2"><span class="text-warning">F</span>ind us</h5>
+  <!--headin5_amrc-->
+  <!-- <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> -->
+  <p><i class="fa fa-location-arrow"></i> : #28, Street 118, Sangkat Toek La ork II, Khan Tuol Kork, Phnom Penh, Cambodia.</p>
+  <p><i class="fa fa-phone"></i>  +855-69999999 </p>
+  <p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+  
+  
+  </div>
+  
+  
+  <div class=" col-sm-4 col-md  col-6 col">
+  <h5 class="headin5_amrc col_white_amrc pt2"><span class="text-warning">Q</span>uick links</h5>
+  <!--headin5_amrc-->
+  <ul class="footer_ul_amrc">
+  <li><a href="./pages/about.html">About Us</a></li>
+  <li><a href="./pages/contact.html">Contact Us</a></li>
+  <li><a href="http://googlemap.com">Sitemap</a></li>
+  </ul>
+  <!--footer_ul_amrc ends here-->
+  </div>
+  
+
+  <div class=" col-sm-4 col-md  col-12 col">
+  <h5 class="headin5_amrc col_white_amrc pt2"><span class="text-warning">F</span>ollow us</h5>
+  <!--headin5_amrc ends here-->
+  
+  <ul class="footer_ul2_amrc">
+  <li><a href="#"><i class="fab fa-facebook fleft padding-right"></i> </a><p>facebook : <a href="#">http://facebook.com/</a></p></li>
+  <li><a href="#"><i class="fab fa-instagram fleft padding-right"></i> </a><p>instagram : <a href="#">http://instagram.com/</a></p></li>
+  <li><a href="#"><i class="fab fa-telegram fleft padding-right"></i> </a><p>twitter  : <a href="#">http://telegram.com/</a></p></li>
+  </ul>
+  <!--footer_ul2_amrc ends here-->
+  </div>
+  </div>
+  </div>
+  
+  
+  <div class="container">
+  <ul class="foote_bottom_ul_amrc">
+  <li><a href="http://webenlance.com">Home</a></li>
+  <li><a href="http://webenlance.com">About Us</a></li>
+  <li><a href="http://webenlance.com">Our Services</a></li>
+  <li><a href="http://webenlance.com">Contact Us</a></li>
+  </ul>
+  <!--foote_bottom_ul_amrc ends here-->
+  <p class="text-center">Copyright @2023 | Designed With by <a href="#">Your Company Name</a></p>
+  
+  <ul class="social_footer_ul">
+  <li><a href="http://facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+  <li><a href="http://twitter.com"><i class="fab fa-twitter"></i></a></li>
+  <li><a href="http://linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+  <li><a href="http://instagram.com"><i class="fab fa-instagram"></i></a></li>
+  </ul>
+  <!--social_footer_ul ends here-->
+  </div>
+  
+  </footer>
+  
+  
 
 
-                        Designed By <a class="border-bottom" href="https://freewebsitecode.com">Kitty Web Team</a>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../plugins/lib/wow/wow.min.js"></script>
-    <script src="../plugins/lib/easing/easing.min.js"></script>
-    <script src="../plugins/lib/waypoints/waypoints.min.js"></script>
-    <script src="../plugins/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../plugins/bootstrap-5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="../plugins/js/jquery-3.6.3.min.js"></script>
+    <script src="../dist/js/logistic.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="../dist/js/main.js"></script>
 </body>
-
 </html>
